@@ -1,4 +1,4 @@
-const { speaker } = require('win-audio');
+const { speaker } = require('@tauubyebye/win-audio');
 const brightness = require('brightness');
 
 module.exports = {

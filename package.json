@@ -1,5 +1,5 @@
 {
-  "name": "system-control",
+  "name": "@tauubyebye/system-control",
   "version": "0.1.1",
   "description": "Exposes configurations of the system",
   "main": "index.js",
@@ -7,6 +7,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "contributors": [
+    "Georg Wechslberger <tauu@h2overclock.de>"
+  ],
   "author": "Afrish Khan S <ryanafrish7@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -18,7 +21,7 @@
     "mocha": "^3.2.0"
   },
   "peerDependencies": {
-    "win-audio": "^1.2.0",
+    "@tauubyebye/win-audio": "^2.0.2",
     "loudness": "git+https://github.com/RyanAfrish7/node-loudness.git"
   },
   "dependencies": {
